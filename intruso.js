@@ -60,11 +60,11 @@ function iniciarJuego() {
 
 function verificar(emoji, intruso) {
   if (emoji === intruso) {
-    mensaje.textContent = "🎉 ¡Muy bien! Ese es el intruso.";
+    mensaje.textContent = "🎉 Very good!";
     mensaje.style.color = "green";
     lanzarConfeti(); // 🎊 confeti al acertar
   } else {
-    mensaje.textContent = "❌ Intenta otra vez.";
+    mensaje.textContent = "❌ Try again.";
     mensaje.style.color = "red";
     return;
   }

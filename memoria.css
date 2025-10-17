@@ -1,13 +1,13 @@
 body {
   font-family: "Comic Sans MS", sans-serif;
-  background: linear-gradient(to bottom right, #a8e6cf, #ffd3b6);
+  background: whitesmoke;
   text-align: center;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #ffaaa5;
+  background-color: whitesmoke;
   padding: 15px;
   display: flex;
   justify-content: space-between;

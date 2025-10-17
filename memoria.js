@@ -42,7 +42,7 @@ function verificarPareja() {
     bloqueado = false;
 
     if (aciertos === iconos.length) {
-      mensaje.textContent = "🎉 ¡Ganaste! Eres un genio 🧠";
+      mensaje.textContent = "Completed!";
       mensaje.style.color = "green";
       lanzarConfeti(); // 🎊 confeti al completar el juego
     }
