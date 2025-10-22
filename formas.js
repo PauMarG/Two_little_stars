@@ -72,11 +72,11 @@ function crearFigura(color, forma) {
 
 function verificar(opcion, correcta) {
   if (opcion.color === correcta.color && opcion.forma === correcta.forma) {
-    mensaje.textContent = "🎉 ¡Muy bien! Acertaste.";
+    mensaje.textContent = "🎉 Very Good.";
     mensaje.style.color = "green";
     lanzarConfeti(); // 🎊 confeti al acertar
   } else {
-    mensaje.textContent = "❌ Intenta de nuevo.";
+    mensaje.textContent = "❌ Try again.";
     mensaje.style.color = "red";
     return;
   }

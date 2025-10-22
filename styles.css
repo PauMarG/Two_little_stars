@@ -10,13 +10,17 @@ body {
 
 header {
   background-color: whitesmoke;
-  padding: 20px;
-  border-bottom: 5px solid #ff8b94;
+  padding: 40px;
 }
 
 h1 {
   font-size: 2em;
   margin: 0;
+}
+
+img {
+  max-width: 50%;
+  height: 30%;
 }
 
 .menu-juegos {

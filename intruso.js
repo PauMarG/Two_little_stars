@@ -21,18 +21,43 @@ const grupos = [
   },
   {
     categoria: "vehículos",
-    similares: ["🚗", "🚕", "🚙"],
+    similares: ["🚗", "🚔", "🚚"],
     intruso: "🐢",
   },
   {
     categoria: "formas",
-    similares: ["🔵", "🔺", "🟨"],
+    similares: ["🔵", "🔶", "🟨"],
     intruso: "🌳",
   },
   {
     categoria: "ropa",
     similares: ["👕", "👖", "👟"],
     intruso: "🍉",
+  },
+  {
+    categoria: "peces",
+    similares: ["🦐", "🦑", "🐟"],
+    intruso: "🍼",
+  },
+  {
+    categoria: "comidas",
+    similares: ["🥪", "🥞", "🍰"],
+    intruso: "🌵",
+  },
+  {
+    categoria: "deportes",
+    similares: ["⚽", "🎾", "🏈"],
+    intruso: "🌷",
+  },
+  {
+    categoria: "cielo",
+    similares: ["🌜", "🌞", "🌟"],
+    intruso: "🚗",
+  },
+  {
+    categoria: "personas",
+    similares: ["👧🏾", "👶🏼", "👦🏽"],
+    intruso: "🎃",
   },
 ];
 
