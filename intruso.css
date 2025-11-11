@@ -72,3 +72,10 @@ h1 {
   cursor: pointer;
   margin-top: 20px;
 }
+
+footer {
+  margin-top: 50px;
+  background-color: #dcedc1;
+  padding: 10px;
+  border-top: 4px solid #a8e6cf;
+}
